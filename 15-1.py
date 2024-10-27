@@ -5,7 +5,7 @@
 a = int(input("введите мин число "))
 b = int(input("введите макс число "))
 sum = 0
-for i in range(a+1,b):
+for i in range(a,b+1):
     sum += i
 print(sum)
 
